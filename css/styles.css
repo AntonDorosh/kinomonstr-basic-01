@@ -31,10 +31,14 @@ h2 {
 
 /* link styles */
 
-a, a:hover {
+a {
+  color: darkslateblue;
+}
+
+a:hover {
   text-decoration: none;
   outline: none;
-  color: darkslateblue;
+  color: #e4ec04;
 }
 
 /* input styles */
@@ -51,6 +55,18 @@ input, textarea {
   outline: none;
   border: none;
   border: 1px solid #f2f2f2;
+}
+
+/* list styles */
+
+ul {
+  margin: 2px 0 22px 17px;
+}
+
+ul li {
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
 }
 
 /* Header */
@@ -171,4 +187,17 @@ ul.menu li a:hover {
   font-size: 0.8em;
   margin-top: 3%;
   margin-left: 2%;
+}
+
+.sidebar ul {
+  margin: 0;
+}
+
+.sidebar ul li {
+  list-style: none;
+  margin: 0 0 0 0;
+}
+
+.sidebar .rating_sidebar {
+  float: right;
 }
