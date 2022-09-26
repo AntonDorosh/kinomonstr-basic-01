@@ -1,11 +1,59 @@
+/* reset margin/padding */
+
 * {
   margin: 0;
   padding: 0;
 }
 
-body {
-  
+.body {
+  font-size: 1.2em;
+  background-color: #ffffff;
+  color: #555;
 }
+
+p {
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+/* title styles */
+
+h1, h2 { 
+  font: normal 170% "century ghotic", arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #000;
+}
+
+h2 {
+  font-size: 140%;
+}
+
+/* link styles */
+
+a, a:hover {
+  text-decoration: none;
+  outline: none;
+  color: darkslateblue;
+}
+
+/* input styles */
+
+input[type="text"],
+input[type="password"],
+input[type="search"] { 
+  color: #5d5d5d;
+  width: 60%;
+  padding: 8px;
+}
+
+input, textarea {
+  outline: none;
+  border: none;
+  border: 1px solid #f2f2f2;
+}
+
+/* Header */
 
 .header {
   background-color: darkslateblue;
@@ -16,7 +64,7 @@ body {
   min-width: 900px;
 }
 
-.main, .logo, .menubar, .site__content, .footer {
+.main, .logo, .menubar, .site_content, .footer {
   margin-left: auto;
   margin-right: auto;
 }
@@ -77,4 +125,50 @@ ul.menu li.selected a {
 
 ul.menu li a:hover {
   color: #e4ec04;
+}
+
+/* Content */
+
+.site_content {
+  width: 880px;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  background-color: white;
+}
+
+.sidebar_container {
+  float: right;
+  width: 222px;
+}
+
+.sidebar {
+  float: right;
+  width: 220px;
+  padding: 5%;
+  margin: 0 0 16px 0;
+  border: 2px solid #f2f2f2;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.btn {
+  padding: 8px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: darkslateblue;
+  color: white
+}
+
+.sidebar h2 {
+  color: #136cb2;
+}
+
+.lables_passreg_text {
+  font-size: 0.8em;
+  margin-top: 3%;
+  margin-left: 2%;
 }
