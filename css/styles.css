@@ -239,6 +239,23 @@ ul.menu li a:hover {
 
 
 
+/* INFO Interstellar */
+
+.info_film_page {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.info_film_page .label {
+  font-size: 1.2em;
+}
+
+.info_film_page .value {
+  font-size: 1em;
+  color: #49945a;
+  margin-left: 1%;
+  margin-right: 2%;
+}
 
 /* Footer */ 
 

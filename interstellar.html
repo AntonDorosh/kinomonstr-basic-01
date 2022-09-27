@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Сайт Кіномонстр, все про популярні фільми">
+  <meta name="keywords" content="кіно, фільми на вечір, популярні фільми hd">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Кіномонстр - Кіно наша пристрасть</title>
+</head>
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="header-container">
+      <!-- logo -->
+      <div class="logo header__logo">
+        <div class="logo__text">
+          <h1><a href="#">КіноМонстр</a></h1>
+          <h2>Кіно - наша пристрасть</h2>
+        </div>
+      </div>
+      <!-- menubar -->
+      <div class="menubar">
+        <ul class="menu">
+          <li class="selected"><a href="#">Головна</a></li>
+          <li><a href="#">Фільми</a></li>
+          <li><a href="#">Серіали</a></li>
+          <li><a href="#">Рейтинг фільмів</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- main -->
+  <main class="main">
+    <div class="site_content">
+      <div class="sidebar_container">
+        <div class="sidebar"> 
+          <h2>Пошук</h2>
+          <form action="#" method="post" id="search_form">
+            <input type="search" name="search_field" placeholder="Пошук">
+            <input type="submit" class="btn" value="Шукати">
+          </form>
+        </div>
+        <div class="sidebar">
+          <h2>Вхід</h2>
+          <form id="login" action="#" method="post">
+            <input type="text" name="login_field" placeholder="Логін">
+            <input type="password" name="password_field" placeholder="Пароль">
+            <input type="submit" class="btn" value="увійти">
+            <div class="lables_passreg_text">
+              <span><a href="#">забули пароль?</a></span> | <span><a href="#">регістрація</a></span>
+            </div>
+          </form>
+        </div>
+        <div class="sidebar">
+          <h2>Новини</h2>
+          <span>26.09.2022</span>
+          <p>Ми запустили наш сайт!</p>
+          <a href="#">читати</a>
+        </div>
+
+        <div class="sidebar">
+          <h2>Рейтинг фільмів</h2>
+          <ul>
+            <li><a href="#">Інтерстелар</a><span class="rating_sidebar">8.1</span></li>
+            <li><a href="#">Матриця</a><span class="rating_sidebar">7.9</span></li>
+            <li><a href="#">Шалений Макс</a><span class="rating_sidebar">7.6</span></li>
+            <li><a href="#">Хмарний Атлас</a><span class="rating_sidebar">7.4</span></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- About Interstellar -->
+
+      <div class="content">
+        <h1>Інтерстелар</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_DQ-lqOhwIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="info_film_page">
+          <span class="label">Рейтинг:</span><span class="value">8.1/10</span>
+          <span class="label">Рік:</span><span class="value">2014</span>
+          <span class="label">Режисер:</span><span class="value">Крістофер Нолан</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="footer">
+    <p>
+      <a href="#">Головна</a>  <b>|</b>
+      <a href="#">Фільми</a>  <b>|</b>
+      <a href="#">Серіали</a>  <b>|</b>
+      <a href="#">Рейтинг фільмів</a>  <b>|</b>
+      <a href="#">Контакти</a>
+    </p>
+    <p class="copyright">&#169; Copyright</p>
+  </footer>
+</body>
+</html>
