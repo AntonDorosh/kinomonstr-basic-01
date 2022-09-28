@@ -494,7 +494,7 @@ and (max-device-width : 568px) {
   .posts_content p {
     line-height: 1.5em;
     font-size: 108%;
-    padding: 3%;
+    padding-right: 4%;
   }
 
   /* Films page */
