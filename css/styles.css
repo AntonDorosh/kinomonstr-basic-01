@@ -224,7 +224,6 @@ ul.menu li a:hover {
   justify-content: space-between;
 }
 
-
 .films_block img {
   border: 5px solid darkslateblue;
   border-radius: 5px;
@@ -237,8 +236,6 @@ ul.menu li a:hover {
 .posts_content p {
   text-align: justify;
 }
-
-
 
 /* INFO Interstellar */
 
@@ -257,7 +254,6 @@ ul.menu li a:hover {
   margin-left: 1%;
   margin-right: 2%;
 }
-
 
 .description_film img {
   float: left;
@@ -292,8 +288,6 @@ ul.menu li a:hover {
   padding-left: 2%;
 }
 
-
-
 /* Review styles */
 
 .send {
@@ -323,7 +317,6 @@ ul.menu li a:hover {
   border-radius: 5px;
 }
 
-
 /* Contacts */
 
 .send p {
@@ -331,7 +324,6 @@ ul.menu li a:hover {
   letter-spacing: 0.03em;
 
 }
-
 
 /* Films */
 
@@ -365,7 +357,6 @@ ul.menu li a:hover {
 .button a {
   color: white;
 }
-
 
 /* Rating  */
 
@@ -420,4 +411,171 @@ td img {
 
 .copyright {
   color: #9c9c9c;
+}
+
+/* CSS mobile */
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .header {
+    background-color: #257965;
+    min-width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .site_content {
+    width: 100%;
+  }
+  
+  .menubar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .site_content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar_container {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  ul.menu {
+    float: none;
+  }
+
+  ul.menu li {
+    margin: 0;
+    padding: 0;
+    float: none;
+  }
+
+  .logo h1 {
+    font: normal 235% "century ghotic", arial, sans-serif;
+  }
+
+  .logo h2 {
+    font: normal 110% "century ghotic", arial, sans-serif;
+    color: white;
+  }
+
+  .content h1, h2 {
+    font: normal 130% "century ghotic", arial, sans-serif;
+  }
+
+  .films_block img {
+    width: 83%;
+    border: 1px solid #257965;
+    padding: 2%;
+  }
+
+  .films_block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .posts_content p {
+    line-height: 1.5em;
+    font-size: 108%;
+    padding: 3%;
+  }
+
+  /* Films page */
+
+  .info_film {
+    float: none;
+    height: 100%;
+  }
+
+  .info_film img {
+    width: 96%;
+    margin-bottom: 5%;
+  }
+
+  .info_film {
+    font-size: 110%;
+    padding-right: 10%;
+  }
+
+  .button {
+    float: none;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  
+  /* Rating page */
+
+  table {
+    display: block;
+  }
+
+  td {
+    font-weight: normal;
+    font-size: 95%;
+    text-align: left;
+  }
+
+  /* Interstellar */
+
+  iframe {
+    width: 90%;
+    height: 100%;
+  }
+
+  .description_film img {
+    float: none;
+    width: 90%;
+  }
+
+  .description_film p {
+    width: 90%;
+    padding: 3%;
+    font-size: 110%;
+  }
+
+  .reviews {
+    width: 95%;
+  }
+  
+  .review_name,
+  .review_text {
+    text-align: justify;
+  }
+  
+  form {
+    width: 90%;
+  }
+
+  .send {
+    margin-left: 4%;
+  }
+
+  .send input[type="text"] {
+    width: 95%;
+  }
+
+  .send input[type="email"] {
+    width: 95%;
+  }
+
+  .send textarea {
+    width: 100%;
+  }
 }
